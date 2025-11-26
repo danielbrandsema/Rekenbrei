@@ -7,16 +7,16 @@ Stappenplan om een website en app te bouwen die berekent hoeveel wol, steken en 
 Wat moet de app doen:
 •	Gebruiker vult in: naalddikte, garendikte en/of gewicht, proeflapje (steken per 10 cm), gewenste maat, kledingstuktype.
 •	App berekent:
-o	Hoeveel steken moeten worden opgezet.
-o	Hoeveel centimeter de delen moeten zijn.
-o	Hoeveel meter garen nodig is.
-o	Varianten per maat (S–XXL).
-o	Mogelijkheid om bestaande patronen (bijv. Maja Karlsson) aan te passen.
+    o	Hoeveel steken moeten worden opgezet.
+    o	Hoeveel centimeter de delen moeten zijn.
+    o	Hoeveel meter garen nodig is.
+    o	Varianten per maat (S–XXL).
+    o	Mogelijkheid om bestaande patronen (bijv. Maja Karlsson) aan te passen.
 •	Optioneel:
-o	Account / opslaan van projecten.
-o	Exporteren naar PDF.
-o	Kleurenschema’s voor motieven (bijv. fair isle).
-o	Wol-database van merken en garendikten.
+    o	Account / opslaan van projecten.
+    o	Exporteren naar PDF.
+    o	Kleurenschema’s voor motieven (bijv. fair isle).
+    o	Wol-database van merken en garendikten.
 
 **Stap 2 — Maak een dataschema
 Welke data moet de app verwerken:
