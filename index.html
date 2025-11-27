@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rekenbrei</title>
+
+  <!-- CSS-stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- (Optioneel voor PWA in toekomst)
+  <link rel="manifest" href="manifest.json" />
+  -->
+
+  <!-- Basis styling voor prettige fonts (optioneel) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Breicalculator</h1>
+    <p>Bereken gemakkelijk steken, maten en garengebruik.</p>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <form id="knitForm">
+        <div>
+            <label for="garment">Kies het kledingstuk:</label>
+            <select id="garment" required>
+                <option value="" disabled selected>Kies een optie…</option>
+                <option value="sweater">Trui / Vest</option>
+                <option value="socks">Sokken</option>
+                <option value="hat">Muts</option>
+            </select>
+        </div>
+
+
+        <div>
+            <label for="gauge">Stekenverhouding (steken per 10 cm):</label>
+            <input type="number" id="gauge" min="1" required />
+        </div>
+
+
+        <div>
+            <label for="size">Breedte kledingstuk in cm:</label>
+            <input type="number" id="size" min="1" required />
+        </div>
+
+
+        <button type="submit">Bereken</button>
+        <button type="reset" id="resetBtn">Reset</button>
+        </form>
+
+
+        <div id="result"></div>
+
+  </main>
+
+  <!-- MAIN JS -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
