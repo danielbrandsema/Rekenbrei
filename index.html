@@ -6,6 +6,8 @@
 
   <title>Rekenbrei</title>
 
+  <script type="module" src="./js/main.js" defer></script>
+
   <!-- CSS-stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -25,7 +27,7 @@
   <!-- HEADER -->
   <header>
     <h1>Breicalculator</h1>
-    <p>Bereken gemakkelijk steken, maten en garengebruik.</p>
+    <p>Bereken steken, maten en garengebruik.</p>
   </header>
 
   <!-- MAIN CONTENT -->
@@ -36,9 +38,9 @@
             <label for="garment">Kies het kledingstuk:</label>
             <select id="garment" required>
                 <option value="" disabled selected>Kies een optie…</option>
-                <option value="sweater">Trui / Vest</option>
-                <option value="socks">Sokken</option>
-                <option value="hat">Muts</option>
+                <option value="trui/vest">Trui / Vest</option>
+                <option value="sok">Sok</option>
+                <option value="muts">Muts</option>
             </select>
         </div>
 
@@ -63,9 +65,6 @@
         <div id="result"></div>
 
   </main>
-
-  <!-- MAIN JS -->
-  <script type="module" src="js/main.js"></script>
 
 </body>
 </html>
